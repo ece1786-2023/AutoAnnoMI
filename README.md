@@ -6,7 +6,7 @@
 -   Python 3.10.13
 - The following Python packages:
     - pandas
-    - [TODO] add moe packages and pin versions. Maybe conda?
+    - [TODO] add more packages and pin versions. Maybe conda?
 
 
 ## Contents
