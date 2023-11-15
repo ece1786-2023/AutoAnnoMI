@@ -1,0 +1,1 @@
+There do not appear to be any errors in speaker labels in this dialogue. Each utterance label correctly identifies the speaker as either the therapist or the client.

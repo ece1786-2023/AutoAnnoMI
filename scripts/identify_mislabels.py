@@ -35,6 +35,6 @@ if __name__ == "__main__":
         flagged_transcript_ids.append(transcript_id)
 
     print(f"{len(flagged_transcript_ids) = }")
-    with open(OUTPUT_PATH, 'w', encoding='utf-8') as file:
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as file:
         for _id in flagged_transcript_ids:
-            file.write(f'{_id}\n')
+            file.write(f"{_id}\n")
