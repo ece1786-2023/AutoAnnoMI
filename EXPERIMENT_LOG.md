@@ -28,3 +28,10 @@ The format of the log is:
 - Output files: The script `scripts/identify_mislabels.py` creates `data/unprocessed/potentially_mislabeled_transcripts.txt` which contains ids of the transcripts/conversations that are problematic.
 - Results: 20 transcripts were flagged by the script as having mislabels.
 - Discussion: I plan to manually check if the flagged conversations have mislabels. I may use LLMs to identify/fix such conversations.
+
+2023-11-15 | Zafar | Fixing the interlocutor labels using GPT-4
+- Motivation: I created a basic prompt for GPT-4 (gpt-4-1106-preview) to fix the labels. It is shown here:
+
+![alt text](assets/gpt-4-fix-label-example.png "OpenAI Playground - GPT-4 for label fixing")
+
+This seems to work and I estimate that the total cost of fixing labels should not be more than $1. This is based on a rough estimate of how many tokens in total there are (~62848) and based on the rate of $0.01 / 1K tokens for gpt-4-1106-preview, this comes around $0.62.
