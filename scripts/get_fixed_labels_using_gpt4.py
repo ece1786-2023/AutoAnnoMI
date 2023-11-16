@@ -20,6 +20,8 @@ MISLABELED_IDS_PATH = (
 )
 FIXED_LABELS_PATH = DATASET_PATH / "fixed" / "fixed_by_gpt4"
 DONE_FILES = DATASET_PATH / "fixed" / "fixed_by_gpt4" / "done"
+VERIFIED_PATH = DATASET_PATH / "fixed" / "fixed_labels_manually_verified.csv"
+FINAL_FIXED_PATH = DATASET_PATH / "fixed" / "AnnoMI-full-fixed.csv"
 
 # GPT-4 globals
 MODEL = "gpt-4-1106-preview"
@@ -52,8 +54,8 @@ def get_fixed_labels(utterances: str, client: OpenAI) -> str:
                 "content": utterances,
             },
         ],
-        temperature=1,
-        max_tokens=256,
+        temperature=0.0,
+        max_tokens=64,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0,
@@ -126,3 +128,23 @@ if __name__ == "__main__":
                 print(exc, f"{tx_id=}")
                 pass
             time.sleep(5)
+
+    if args.step == 2:
+        user_answer = input(
+            "Before proceeding, make sure you have manually verified the "
+            "fixed label suggestions bu GPT-4 and have created "
+            "fixed_labels_manually_verified. Press 'Y' to continue: "
+        )
+        if user_answer != "Y":
+            exit()
+        df_original = pd.read_csv(INPUT_DF_PATH)
+        df_verified = pd.read_csv(VERIFIED_PATH)
+        assert len(df_original) == len(df_verified)
+        for idx, row in df_original.iterrows():
+            if row.interlocutor != df_verified.loc[idx, "interlocutor"]:
+                print(idx)
+        user_answer = input("Press 'Y' to proceed: ")
+        if user_answer != "Y":
+            exit()
+        df_original.interlocutor = df_verified.interlocutor
+        df_original.to_csv(FINAL_FIXED_PATH)

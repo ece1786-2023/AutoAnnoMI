@@ -30,11 +30,12 @@ The format of the log is:
 - Discussion: I plan to manually check if the flagged conversations have mislabels. I may use LLMs to identify/fix such conversations.
 
 2023-11-15 | Zafar | Fixing the interlocutor labels using GPT-4
-- Motivation: I created a basic prompt for GPT-4 (gpt-4-1106-preview) to fix the labels. It is shown here:
+- Motivation: I created a basic prompt for GPT-4 (gpt-4-1106-preview) to fix the labels and tested it in OpenAI Playground. It is shown here:
 
 ![alt text](assets/gpt-4-fix-label-example.png "OpenAI Playground - GPT-4 for label fixing")
 
 This seems to work and I estimate that the total cost of fixing labels should not be more than $1. This is based on a rough estimate of how many tokens in total there are (~62848) and based on the rate of $0.01 / 1K tokens for gpt-4-1106-preview, this comes around $0.62.
-- Steps: I wrote the script `scripts/get_fixed_labels_using_gpt4.py` to fix the labels using GPT-4, and then manually checked all the flagged labels. Once I made sure all the mislabels are corrected, I saved the fixed dataset here: `data/fixed/AnnoMI-full-fixed.csv`. To get a sense of how many labels, were corrected, I calculated the diff between the original and fixed dataset.
-- Input files: Original file `data/unprocessed/AnnoMI-full-unique-annotation.csv`. The script `scripts/get_fixed_labels_using_gpt4.py` created 20 `.txt`and `.done` intermediate files in the location `data/fixed/fixed_by_gpt4`.
-- Results: The total number of mislabels GPT-4 and I found were <>.
+- Steps: I wrote the script `scripts/get_fixed_labels_using_gpt4.py` to fix the labels using GPT-4, and then manually checked all the flagged labels. Once I made sure all the mislabels are corrected, I saved the fixed dataset here: `data/fixed/fixed_labels_manually_verified.csv`. To get a sense of how many labels, were corrected, I calculated the diff between the original and fixed dataset. The total number of labels corrected are 3. Most of the flagged labels were already correct. The final fixed dataset is here: `data/fixed/AnnoMI-full-fixed.csv`.
+- Input files: Original file `data/unprocessed/AnnoMI-full-unique-annotation.csv`
+- Output files: The script `scripts/get_fixed_labels_using_gpt4.py` created 20 `.txt` and `.done` intermediate files in the location `data/fixed/fixed_by_gpt4`. After manually checking the fixed labels, the final dataset is saved here: `data/fixed/AnnoMI-full-fixed.csv`
+- Results: The total number of mislabels GPT-4 and I found were 3. **We will use the fixed dataset `data/fixed/AnnoMI-full-fixed.csv` for future experimentation.**
