@@ -1,0 +1,3 @@
+Requirement: Analyze a conversation utterance and categorize the presence of a "reflection" statement. Output "simple reflection" if a simple reflection is detected, "complex reflection" for a complex reflection, or "nan" if no reflection is found.
+Context: Input is a single utterance from a therapist-client conversation. A reflection involves repeating or rephrasing client statements, with sub-classification into Simple (RES) or Complex (REC). Simple reflections convey understanding without adding substantial meaning, while complex reflections deepen or expand on the client's statement.
+

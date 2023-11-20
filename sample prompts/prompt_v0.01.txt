@@ -1,0 +1,5 @@
+### Instruction ###
+Given a conversation utterance, classify the presence of a "reflection" statement in three outputs. First, explain whether the utterance contains or lacks a reflection, labeling it as "simple" or "complex" and providing justification. Second, output "reflection_exists=True" if a reflection is present, and "reflection_exists=False" otherwise. Third, output "reflection_subtype=simple" for a simple reflection, "reflection_subtype=complex" for a complex reflection, or "reflection_subtype=nan" if no reflection is detected.
+
+### Context ###
+Input: Single utterance from a therapist-client conversation. A reflection involves repeating or rephrasing client statements, with sub-classification into Simple (RES) or Complex (REC). Simple reflections convey understanding without adding substantial meaning, while complex reflections deepen or expand on the client's statement.

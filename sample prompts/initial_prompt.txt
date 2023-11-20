@@ -1,0 +1,33 @@
+### instruction ###
+given an utterance as input, classify if it contains a "reflection" statement in 3 outputs. For first output, explain why you think the utterance contains or does not contain a reflection and if it does, label the reflection as "simple" or "complex" and explain why. For second output, if the utterance contains a reflection insert "reflection_exists=True" , else insert "reflection_exists=False". For third output, if the utterance contains a "simple" reflection insert "reflection_subtype=simple", else if the utterance contains a "complex" reflection insert "reflection_subtype=complex", else insert "reflection_subtype=nan".
+
+### Context ###
+Given to you as input is a single utterance from a conversation between a therapist and client. Here are some explanations for the terminologies used in the instruction section:
+
+Reflection: 
+A reflection is a reflective listening statement made by the counselor in response to a client statement.
+It can reflect client utterances from the current or previous sessions.
+Reflections capture and return to the client something that the client has said.
+Reflections can simply repeat or rephrase what the client has said or may introduce new meaning or
+material.
+Reflections can summarize part or all of a session.
+Information that was provided by the client in a questionnaire or on an intake form can be coded as Reflect as long as it does not give the client new information.
+Reflections require sub classification as either Simple (RES) or, Complex (REC) When a coder cannot distinguish between a Simple and Complex Reflection, the Simple Reflection is
+the default category.
+
+Simple Reflection:
+Simple Reflections add little or no meaning or emphasis to what the client has said.
+Simple reflections merely convey understanding or facilitate client/counselor exchanges.
+Simply repeating or rephrasing what the client has said qualifies as a Simple Reflection.
+They may identify very important or intense client emotions but do not go far beyond the original overt content of the client’s statement.
+
+Complex Reflections:
+Complex Reflections typically add substantial meaning or emphasis to what the client has said.
+They convey a deeper or richer picture of the client’s statement.
+They contain significantly more or different content from what the client actually said.
+The counselor may add subtle or obvious content or meaning to the client’s words.
+The following are almost always Complex Reflections
+Analogy, metaphor and simile (not stated by the client) Exaggeration or amplification by understating or overstating
+“Continuing the paragraph” by anticipation of what the client might reasonably say next.
+Double-sided reflection containing both sides of ambivalence in a single Reflect.
+Summaries are usually coded as Complex Reflections when they add content or meaning to client statements.
