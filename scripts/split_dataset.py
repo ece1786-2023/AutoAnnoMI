@@ -31,6 +31,7 @@ if __name__ == "__main__":
 
     print(f"Keeping only transcripts with quality in {PREFERRED_QUALITY}")
     df = df[df.mi_quality.isin(PREFERRED_QUALITY)]
+    df = df.drop('Unnamed: 0', axis=1)
     print(f"{len(df) = }")
 
     print(f"Keeping only transcripts with topic in {PREFERRED_TOPICS}")
