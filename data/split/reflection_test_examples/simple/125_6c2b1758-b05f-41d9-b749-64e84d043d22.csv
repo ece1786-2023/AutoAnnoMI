@@ -1,0 +1,3 @@
+mi_quality,transcript_id,video_title,video_url,topic,utterance_id,interlocutor,timestamp,utterance_text,annotator_id,therapist_input_exists,therapist_input_subtype,reflection_exists,reflection_subtype,question_exists,question_subtype,main_therapist_behaviour,client_talk_type
+high,125,Using Reflection in Home Visiting/OARS/Motivational Interviewing,https://www.youtube.com/watch?v=5OR4TRQ5xnI,unidentifiable,0,client,00:01:31,The baby was up all night and I'm exhausted.,5,,,,,,,,neutral
+high,125,Using Reflection in Home Visiting/OARS/Motivational Interviewing,https://www.youtube.com/watch?v=5OR4TRQ5xnI,unidentifiable,1,therapist,00:01:34,"So, what you're saying is you've had a rough night?",5,False,,True,simple,False,,reflection,

@@ -1,0 +1,22 @@
+mi_quality,transcript_id,video_title,video_url,topic,utterance_id,interlocutor,timestamp,utterance_text,annotator_id,therapist_input_exists,therapist_input_subtype,reflection_exists,reflection_subtype,question_exists,question_subtype,main_therapist_behaviour,client_talk_type
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,0,therapist,00:00:11,"Uh, welcome. And, uh—",4,False,,False,,False,,other,
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,1,client,00:00:12,Thank you.,4,,,,,,,,neutral
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,2,therapist,00:00:13,I'd say my name is Mark and I work here at Green Prescriptions. And-,4,True,information,False,,False,,therapist_input,
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,3,client,00:00:17,Mm-hmm.,4,,,,,,,,neutral
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,4,therapist,00:00:17,I know a little bit about you from the referral letter from the doctor.,4,False,,True,simple,False,,reflection,
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,5,client,00:00:21,From my GP?,4,,,,,,,,neutral
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,6,therapist,00:00:22,"From your GP, yeah.",4,False,,True,simple,False,,reflection,
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,7,client,00:00:23,Uh.,4,,,,,,,,neutral
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,8,therapist,00:00:24,"But before we get to anything, I'll probably want to just ask you a little bit about what's led you to come here today and get a bit of an idea about what's been going on for you.",4,False,,False,,False,,other,
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,9,client,00:00:33,What's led me to come here?,4,,,,,,,,neutral
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,10,therapist,00:00:34,Mm.,4,False,,False,,False,,other,
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,11,client,00:00:35,My GP.,4,,,,,,,,neutral
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,12,therapist,00:00:36,And what did he have to say?,4,False,,False,,True,open,question,
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,13,client,00:00:37,"Well, um, you know, I had my sort of, uh, checkup.",4,,,,,,,,neutral
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,14,therapist,00:00:42,mm.,4,False,,False,,False,,other,
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,15,client,00:00:43,"And it revealed that apparently, I might have diabetes 2. Well, that's what he says.",4,,,,,,,,sustain
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,16,therapist,00:00:47,Right.,4,False,,False,,False,,other,
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,17,client,00:00:47,"Um, I-I think that I feel perfectly well. I-I'm, you know-- I understand people with diabetes are a little bit plumper than I am.",4,,,,,,,,sustain
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,18,therapist,00:00:56,Mm.,4,False,,False,,False,,other,
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,19,client,00:00:56,"But, um, that's really why I'm here. I'm on his command, almost.",4,,,,,,,,sustain
+high,121,MI in health care,https://www.youtube.com/watch?v=dDygm-rh6hk,diabetes management,20,therapist,00:01:03,"Right, so he kinda gave you a directive?",4,False,,True,complex,False,,reflection,

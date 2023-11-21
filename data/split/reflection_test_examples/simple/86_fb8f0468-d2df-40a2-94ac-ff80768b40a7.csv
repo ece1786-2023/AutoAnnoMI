@@ -1,0 +1,11 @@
+mi_quality,transcript_id,video_title,video_url,topic,utterance_id,interlocutor,timestamp,utterance_text,annotator_id,therapist_input_exists,therapist_input_subtype,reflection_exists,reflection_subtype,question_exists,question_subtype,main_therapist_behaviour,client_talk_type
+high,86,MI Reflections,https://www.youtube.com/watch?v=PoLlQO_mchA,reducing drug use,0,client,00:00:12,I just feel helpless about this whole deal.,8,,,,,,,,neutral
+high,86,MI Reflections,https://www.youtube.com/watch?v=PoLlQO_mchA,reducing drug use,1,therapist,00:00:15,You're hopeless about what's going on.,8,False,,True,simple,False,,reflection,
+high,86,MI Reflections,https://www.youtube.com/watch?v=PoLlQO_mchA,reducing drug use,2,client,00:00:17,Mm. I just feel helpless about this whole deal.,8,,,,,,,,neutral
+high,86,MI Reflections,https://www.youtube.com/watch?v=PoLlQO_mchA,reducing drug use,3,therapist,00:00:23,You seem at a loss of where to go from here.,8,False,,True,simple,False,,reflection,
+high,86,MI Reflections,https://www.youtube.com/watch?v=PoLlQO_mchA,reducing drug use,4,client,00:00:28,No one wants to help me.,8,,,,,,,,neutral
+high,86,MI Reflections,https://www.youtube.com/watch?v=PoLlQO_mchA,reducing drug use,5,therapist,00:00:31,You feel like people aren't willing to help.,8,False,,True,simple,False,,reflection,
+high,86,MI Reflections,https://www.youtube.com/watch?v=PoLlQO_mchA,reducing drug use,6,client,00:00:34,No one wants to help me.,8,,,,,,,,neutral
+high,86,MI Reflections,https://www.youtube.com/watch?v=PoLlQO_mchA,reducing drug use,7,therapist,00:00:36,You feel alone.,8,False,,True,complex,False,,reflection,
+high,86,MI Reflections,https://www.youtube.com/watch?v=PoLlQO_mchA,reducing drug use,8,client,00:00:37,Mm-hmm. I really shouldn't have done it.,8,,,,,,,,neutral
+high,86,MI Reflections,https://www.youtube.com/watch?v=PoLlQO_mchA,reducing drug use,9,therapist,00:00:41,You realize it's something you shouldn't have done.,8,False,,True,simple,False,,reflection,

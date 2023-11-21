@@ -1,0 +1,11 @@
+mi_quality,transcript_id,video_title,video_url,topic,utterance_id,interlocutor,timestamp,utterance_text,annotator_id,therapist_input_exists,therapist_input_subtype,reflection_exists,reflection_subtype,question_exists,question_subtype,main_therapist_behaviour,client_talk_type
+high,60,Monkey on My Back - Part 4,https://www.youtube.com/watch?v=3hW-7X96zQI,smoking cessation ,0,client,00:00:00,It's good.,5,,,,,,,,neutral
+high,60,Monkey on My Back - Part 4,https://www.youtube.com/watch?v=3hW-7X96zQI,smoking cessation ,1,therapist,00:00:00,Yeah.,5,False,,False,,False,,other,
+high,60,Monkey on My Back - Part 4,https://www.youtube.com/watch?v=3hW-7X96zQI,smoking cessation ,2,client,00:00:01,"Um, another thing-- Wait, what, I had something, it's just [inaudible 00:00:03] that I wanted to ask you, um, now a lot of my friends have quit smoking. They're getting like ostracized, but, you know, I tend to, like, gravitate, you know, towards-- Like my ex-husband smokes, you know-",5,,,,,,,,sustain
+high,60,Monkey on My Back - Part 4,https://www.youtube.com/watch?v=3hW-7X96zQI,smoking cessation ,3,therapist,00:00:22,Mm-hmm.,5,False,,False,,False,,other,
+high,60,Monkey on My Back - Part 4,https://www.youtube.com/watch?v=3hW-7X96zQI,smoking cessation ,4,client,00:00:22,-so I find it like acceptable in that regard.,5,,,,,,,,sustain
+high,60,Monkey on My Back - Part 4,https://www.youtube.com/watch?v=3hW-7X96zQI,smoking cessation ,5,therapist,00:00:25,You bond other smokers.,5,False,,True,complex,False,,reflection,
+high,60,Monkey on My Back - Part 4,https://www.youtube.com/watch?v=3hW-7X96zQI,smoking cessation ,6,client,00:00:26,"Mm-hmm, yeah.",5,,,,,,,,neutral
+high,60,Monkey on My Back - Part 4,https://www.youtube.com/watch?v=3hW-7X96zQI,smoking cessation ,7,therapist,00:00:27,"That's very common. I mean, you go where you know, um, no one's gonna look down on you.",5,False,,True,complex,False,,reflection,
+high,60,Monkey on My Back - Part 4,https://www.youtube.com/watch?v=3hW-7X96zQI,smoking cessation ,8,client,00:00:34,Yeah.,5,,,,,,,,neutral
+high,60,Monkey on My Back - Part 4,https://www.youtube.com/watch?v=3hW-7X96zQI,smoking cessation ,9,therapist,00:00:34,And you're instant friends.,5,False,,True,simple,False,,reflection,

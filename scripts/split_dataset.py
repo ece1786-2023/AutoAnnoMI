@@ -3,45 +3,48 @@ Train size = 4 conversations
 Test size = 16 conversations
 """
 
+import random
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
+random.seed(2023)
+np.random.seed(2023)
+
 # Path globals
 DATASET_PATH = Path("data")
 INPUT_DF_PATH = DATASET_PATH / "fixed" / "AnnoMI-full-fixed.csv"
 SPLIT_PATH = DATASET_PATH / "split"
 
-# Split globals
-PREFERRED_TOPICS = [
-    "reducing alcohol consumption",
-    "smoking cessation",
-    "diabetes management",
-    "reducing drug use",
-]
+
 PREFERRED_QUALITY = ["high"]
-TRAIN_SIZE = 4
-TEST_SIZE = 16
+TRAIN_SIZE = 15
+TEST_SIZE = 51
 
 if __name__ == "__main__":
     df = pd.read_csv(INPUT_DF_PATH)
+    df = df.drop("Unnamed: 0", axis=1)
     print(f"{len(df) = }")
 
     print(f"Keeping only transcripts with quality in {PREFERRED_QUALITY}")
     df = df[df.mi_quality.isin(PREFERRED_QUALITY)]
-    df = df.drop('Unnamed: 0', axis=1)
     print(f"{len(df) = }")
 
-    print(f"Keeping only transcripts with topic in {PREFERRED_TOPICS}")
-    df = df[df.topic.isin(PREFERRED_TOPICS)]
+    print(f"Keeping only transcripts with some topics")
+    preferred_topics = []
+    for topic, group in df.groupby(by="topic"):
+        if len(group.transcript_id.unique()) > 1:
+            preferred_topics.append(topic)
+    df = df[df.topic.isin(preferred_topics)]
     print(f"{len(df) = }")
 
     dfs = [
         df[df.transcript_id == tx_id].reset_index(drop=True)
         for tx_id in df.transcript_id.unique()
     ]
+    print(f"{len(dfs) = }")
     filtered_dfs = []
     for _df in dfs:
         _df = _df.reset_index(drop=True)
@@ -56,6 +59,7 @@ if __name__ == "__main__":
         ):
             filtered_dfs.append(_df)
     dfs = filtered_dfs
+    print(f"{len(dfs) = }")
 
     train, test = train_test_split(
         np.array([list(df.transcript_id)[0] for df in dfs]),

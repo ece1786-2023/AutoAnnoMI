@@ -1,0 +1,2 @@
+mi_quality,transcript_id,video_title,video_url,topic,utterance_id,interlocutor,timestamp,utterance_text,annotator_id,therapist_input_exists,therapist_input_subtype,reflection_exists,reflection_subtype,question_exists,question_subtype,main_therapist_behaviour,client_talk_type
+high,51,Elicit Provide Elicit- or Ask Tell Ask-Using Motivational Interviewing to address vaccine hesitancy,https://www.youtube.com/watch?v=Ans4LjGHBos,taking medicine / following medical procedure,0,therapist,00:00:00,Tell me what you know about the flu shot?,9,False,,False,,True,open,question,
