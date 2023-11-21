@@ -41,6 +41,20 @@ if __name__ == "__main__":
         df[df.transcript_id == tx_id].reset_index(drop=True)
         for tx_id in df.transcript_id.unique()
     ]
+    filtered_dfs = []
+    for _df in dfs:
+        _df = _df.reset_index(drop=True)
+        even_indices = list(range(0, len(_df), 2))
+        odd_indices = list(range(1, len(_df), 2))
+        even_interlocutor = set(_df.iloc[even_indices].interlocutor)
+        odd_interlocutor = set(_df.iloc[odd_indices].interlocutor)
+        if (
+            len(even_interlocutor) == 1
+            and len(odd_interlocutor)
+            and even_interlocutor.intersection(odd_interlocutor) == set()
+        ):
+            filtered_dfs.append(_df)
+    dfs = filtered_dfs
 
     train, test = train_test_split(
         np.array([list(df.transcript_id)[0] for df in dfs]),
