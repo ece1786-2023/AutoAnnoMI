@@ -1,0 +1,1 @@
+The following is a snippet from an MI conversation. Return "simple", "complex" or "none" based on whether the therapist's utterance has a simple, complex or no reflection.
