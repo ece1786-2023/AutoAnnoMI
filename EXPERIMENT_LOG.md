@@ -39,3 +39,54 @@ This seems to work and I estimate that the total cost of fixing labels should no
 - Input files: Original file `data/unprocessed/AnnoMI-full-unique-annotation.csv`
 - Output files: The script `scripts/get_fixed_labels_using_gpt4.py` created 20 `.txt` and `.done` intermediate files in the location `data/fixed/fixed_by_gpt4`. After manually checking the fixed labels, the final dataset is saved here: `data/fixed/AnnoMI-full-fixed.csv`
 - Results: The total number of mislabels GPT-4 and I found were 3. **We will use the fixed dataset `data/fixed/AnnoMI-full-fixed.csv` for future experimentation.**
+
+2023-11-21 | Zafar | Splitting the dataset into train and test
+- Motivation: The dataset needs to split stratified by topic into train and test for making sure the prompting strategies are generalizable.
+- Steps: I started with `data/fixed/AnnoMI-full-fixed.csv` and after filtering only high quality conversations and conversations falling into four chosen topics, I split the dataset into 4 training conversations and 16 test conversations. The script I used was `scripts/split_dataset.py`.
+- Input files: `data/fixed/AnnoMI-full-fixed.csv`
+- Output files: `data/split/train.csv` and `data/split/test.csv`
+- Results: Here are the statistics of the split:
+
+```bash
+len(df) = 9271
+Keeping only transcripts with quality in ['high']
+len(df) = 8456
+Keeping only transcripts with topic in ['reducing alcohol consumption', 'smoking cessation', 'diabetes management', 'reducing drug use']
+len(df) = 2657
+--------------------------------------------------------------------------------
+split_ids = array([65, 73, 46, 82])
+split_name = 'train'
+
+topic
+reducing alcohol consumption    97
+smoking cessation               35
+reducing drug use               26
+Name: count, dtype: int64
+
+len(df_split) = 158
+len(df_split[df_split.reflection_exists == True]) = 30
+len(df_split[df_split.reflection_exists == False]) = 49
+len(df_split[df_split.reflection_subtype == "simple"]) = 20
+len(df_split[df_split.reflection_subtype == "complex"]) = 10
+--------------------------------------------------------------------------------
+split_ids = array([ 38, 112,  80,  48,  64,  99, 101,  91,  87,  86,  67,  89, 117,
+         1,  34,  52])
+split_name = 'test'
+
+topic
+reducing alcohol consumption    559
+reducing drug use               348
+smoking cessation               190
+diabetes management              28
+Name: count, dtype: int64
+
+len(df_split) = 1125
+len(df_split[df_split.reflection_exists == True]) = 211
+len(df_split[df_split.reflection_exists == False]) = 356
+len(df_split[df_split.reflection_subtype == "simple"]) = 94
+len(df_split[df_split.reflection_subtype == "complex"]) = 117
+```
+
+**From now on, we will use `data/split/train.csv` for finding the prompt engineering and `data/split/test.csv` for testing.**
+
+Note: Once Sepehr finalizes the labels in the ADP/ADW labels, he will create `data/split/test_advice.csv`.
