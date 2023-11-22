@@ -11,6 +11,9 @@ The format of the log is:
 - [`Results`]
 - [`Discussion`]
 
+--------------------------------------------------------------------------------
+## DATA PROCESSING LOG
+
 2023-11-14 | Zafar | Skip (7) transcripts/conversations annotated by more than one annotator
 - Motivation: The [AnnoMI paper](https://www.mdpi.com/1999-5903/15/3/110) mentions that they calculated "utterance-level inter-annotator agreement (IAA) over the annotations on the 7 transcripts." I believe we should drop these transcripts from the data labelling as it will cause confusion down the line when we calculate the agreement between LLMs and annotators.
 - Steps: I created the script `scripts/drop_transcripts_with_multiple_annotations.py` to drop those transcripts that had multiple annotations.
@@ -90,3 +93,7 @@ len(df_split[df_split.reflection_subtype == "complex"]) = 117
 **From now on, we will use `data/split/train.csv` for finding the prompt engineering and `data/split/test.csv` for testing.**
 
 Note: Once Sepehr finalizes the labels in the ADP/ADW labels, he will create `data/split/test_advice.csv`.
+
+--------------------------------------------------------------------------------
+
+## PROMPT EXPERIMENTS LOG
