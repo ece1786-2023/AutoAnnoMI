@@ -7,6 +7,7 @@
     *   `potentially_mislabeled_transcripts.txt`: Ids of the transcripts that were flagged as having potential issues with their interlocutor labels.
 
 *   `fixed/`: Data after removing the inconsistencies in it. Refer to Section 3 (Source of Data and Processing) of the Project Proposal document for more information.
+
 *   `added_labels/`: Data after adding "advice_exists" and "advice_subtype" columns.
 
 *   `labeled/baseline/`: Will contain the labels from the baseline model or prompt.
