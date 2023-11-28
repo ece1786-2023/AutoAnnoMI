@@ -138,7 +138,7 @@ if __name__ == "__main__":
             )
             print(f"{api_output = }")
             print(f"{label = }")
-            api_output = api_output.lower()
+            api_output = api_output.strip().lower()
             predicted_label = None
             predicted_label = api_output if api_output in LABELS else "failed"
             out_df.loc[csv_file] = {
