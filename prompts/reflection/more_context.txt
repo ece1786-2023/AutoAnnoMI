@@ -1,0 +1,28 @@
+The following is a snippet from a motivational interviewing conversation. The snippet can have multiple therapist and client utterances. 
+Return "simple", "complex" or "none" based on whether the last therapist's utterance  has a simple, complex or no reflection. 
+Feel free to return none as the therapist utterance might not have any reflection.
+
+Here are a few examples.
+
+Examples:
+
+Example 1
+Client: But-but the wheezing is something that I've definitely noticed a little bit.
+Therapist: I guess I also wonder whether, regardless of-of if your asthma symptoms are connected to Oscar, that may be part of you feels like it's worth it because he's been-
+Client: Mm-hmm.
+Therapist: -such a big part of your life for so long.
+Answer: complex
+
+Example 2
+Client: Um, I'm just- yeah I just like to have a few drinks. I mean, you know, obviously, I-I have, uh, this diagnosed condition, and-and I think, you know, if I were able to, you know, maybe take a few hits off of the joint and have a couple of beers, I think that's about the same as taking the medicine.
+Therapist: Well, you know, what, I-- There are a lot of people that wouldn't disagree with you on that exactly. You know, so, um, uh, but I know that they-they were never quite sure how they were all interacting all together. Like the, um- the weed kind of tends to make people a little paranoid anyway.
+Client: Yeah, I-I-I got to be careful with it. If I take more than a hit or two of it, it-it-it can be a bit of a problem.
+Therapist: Yeah. Why, what happens if you take a little too much of it?
+Answer: none
+
+Example 3
+Client: That's a good way to sum it up. And it's-- Well, you understand it, uh, it's just- it's not good.
+Therapist: Mm. So, and then you said, you don't like how it makes you act, um, if you can tell me a little bit about that.
+Answer: simple
+
+Now, look at this snippet and output one word, which is the correct label for the LAST therapist utterance.
