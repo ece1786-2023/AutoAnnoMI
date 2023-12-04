@@ -1,0 +1,721 @@
+csv_file,system_prompt,user_prompt,true_label,predicted_label,success,done
+data/added_labels/advice_test_examples/none/91_b8e0527b-3fdb-400c-8943-ea0614d8ca9e.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: -this was a big step. So I guess, yes. Um, it wouldn't have been as high maybe last week.
+Therapist: Okay. So you said 30 to 40%. What would it take to build that confidence to about 45%?",none,none,True,True
+data/added_labels/advice_test_examples/ADP/97_cf40c535-07eb-4291-88f4-f22360203dd0.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: No.
+Therapist: Okay. Can I suggest that you come back and see me in a couple of weeks time just to chat about this?",ADP,ADP,True,True
+data/added_labels/advice_test_examples/ADW/16_0e3e09e2-36d5-4c04-a535-4b7c9cf9caa6.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Oh, it's a nice place. It's close to work. It's good living with a mate.
+Therapist: Yeah. So, in terms of being supportive and a sort of support you're gonna need to make these changes.",ADW,none,False,True
+data/added_labels/advice_test_examples/ADP/11_0ade393a-9b0c-45b9-87e0-b52574638fc4.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Yeah
+Therapist: .Okay, mm-hmm. Well, I'm wondering then if it's okay with you and-and I have a form that we can use if you'd like, um, just to put out some different ideas on an agenda that we could share as we're working together so that I-I can support you to be successful in getting this behind you. Would-would this feel like a natural time to-to move towards figuring out where we might go together?",ADP,ADP,True,True
+data/added_labels/advice_test_examples/ADP/121_b607e221-1920-48d4-9426-f6f3dffa202f.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: So, I mean, what-what-what-what suggestions would you have? I mean, what-what sort of-
+Therapist: I don't know. I think it's up to you where we start, and that's the question I've got in my mind. You've mentioned a couple of things that you've already made some effort, or been conscious of. You've mentioned the diet, you've mentioned your smoking, those are two quite important aspects that we often talk about here in how people work.",ADP,ADP,True,True
+data/added_labels/advice_test_examples/ADP/20_3d74913e-86a5-4a2d-bc2b-d1ecb69a4b5c.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: I don't know. I-I'd like some help. I just don't know what kind of help I need.
+Therapist: Sure. Well, if you'd be interested, that's something I can definitely talk to you about. There are a lot of new options that can actually help people be way more successful in their attempt at quitting. There's different medications you can try.",ADP,ADP,True,True
+data/added_labels/advice_test_examples/ADW/121_c10ffd97-75ae-408c-8abc-365a51fd0a15.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Maybe it's an idea. I mean—
+Therapist: I think anything you do, it has to be something you've decided. You know, just start where you want to start. You've mentioned some really good ideas about possibly getting a little bit more exercise into your life, doing something like squash or something of that nature. You've mentioned some really good ideas about reducing the amount of sugar you-you-you're-you're intaking during the day, and coffee is a good place to start. Having an apple for breakfast, I think you mentioned that, a bit of fruit.",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADP/91_8d3893a8-87bd-4011-b364-a2933f657c4e.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Discussing things helps me. I always feel better when I get things out.
+Therapist: Okay. So Jean, I really want to congratulate you on taking this very important first step towards addressing this problem that you've had for such a long time, but as the first small step, I wonder whether you'd be open to actually just monitoring your smoking for the next week. And the reason why I say that- because as you were mentioning to me, smoking is so automatic for you that sometimes writing it down helps make every cigarette a conscious act. And I noticed that you were saying to me, you feel a loss of control over these cigarettes. And sometimes just being mindful and writing something down will help you get some control over what you're doing. And that's often the first small step. What are your thoughts about that?",ADP,ADP,True,True
+data/added_labels/advice_test_examples/none/84_2e5ad609-df4b-4c42-be2b-dd873004a95f.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Yeah. I can hang out with her and stuff and she gets all my mates and stuff. So it's all good.
+Therapist: Hmm, yeah. It's really special when you find someone who can be both a friend and girlfriend, eh.",none,none,True,True
+data/added_labels/advice_test_examples/none/12_b928cbdc-c115-4ca6-8b20-a0524b833cdd.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","
+Therapist: Sarah, I'm so glad you came in for your well-woman exam today. I think we addressed a lot of your concerns. However, I would like to ask you more about your smoking. Would that be okay?",none,ADP,False,True
+data/added_labels/advice_test_examples/none/48_94474b78-648c-4ecc-93b1-3879644abfa8.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Yes, I know, I know, I know.
+Therapist: Yeah.",none,none,True,True
+data/added_labels/advice_test_examples/ADW/49_1f336114-becd-4c64-b9d1-1885c5980830.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: -I don't know how I'm gonna do that.
+Therapist: Yeah. Okay, so sounds like so-some budget to buy stuff will be helpful.",ADW,none,False,True
+data/added_labels/advice_test_examples/ADW/121_6f990869-69ae-44b3-8726-ecb7f67b89c8.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Domino effect, yeah.
+Therapist: So rather than thinking, ""oh, my God, I have to change all these things. I've gotta stop smoking, I've gotta exercise more, I've gotta, you know, start eating more fruit and vegetables,"" you might start with these small changes, and then-",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADP/133_dcc7736d-022c-4d43-ac15-d2c7526c6c69.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Yeah. I mean, yeah, it is obviously, it is first steps, but I mean, what's that? What's the first step into the pro-social life?
+Therapist: Well, you trying to get a job, maybe and get into some routine.",ADP,ADW,False,True
+data/added_labels/advice_test_examples/ADP/85_00e51b59-1792-4aaa-9dca-093b06978fde.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Yeah.
+Therapist: Yet, at the same time, I know running around and getting in trouble for being naked or having to go to the hospital, not such a good thing either. Um, I'm wondering if, um- if I could run some ideas by you that some other patients of mine have tried?",ADP,ADP,True,True
+data/added_labels/advice_test_examples/ADW/49_946da1b2-2820-4781-9cd0-98aa748b22cf.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: When I'm feeling uncomfortable?
+Therapist: Yeah, yeah. If you could just say, ""Ken, hi, I am starting to, you know, tune it out here, starting to get uncomfortable,"" that would be really helpful.",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/33_09cd7881-07a4-4eaf-8992-53192989b9ea.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","
+Therapist: Okay, David. So, why don't you take a rinse, and how are you feeling?",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/107_2299ccdc-11e7-40e3-b9c6-0b33d5154399.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: I think have you ever been to an ER when you cut yourself, you'd know why I don't go.
+Therapist: Okay, but part of the problem is those look deep and like you're going to have significant scars. So my suggestion is in the future, if you do it, is that you put some sort of bandaid on it to keep it closed. But let's talk about how, um, how this happened. First of all, tell me, you were telling me on that phone that you wanted to die. But, um, did you-- Was this a suicide attempt or do you think it was just-just a cutting? Were thinking of killing yourself or wanting to kill yourself or wanting to die when you did it?",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/91_82793c41-f0a5-457a-9a0b-f94b79a3af0b.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: -and maybe mark that down that, uh, I didn't go right away when something went wrong. Um, yes, I-I can try that.
+Therapist: Okay. And I can give you a little card that can help you keep track of it. And if you can bring that back to the next appointment, it could be something we could discuss. Okay. Anything else?",ADW,ADP,False,True
+data/added_labels/advice_test_examples/none/85_a75ba261-83b8-40ab-83b6-2b1a126e67bc.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Yeah. And, uh- and so, she-- Actually, she-- When I first went on the medicine, she thought I was maybe messing around with somebody else, 'cause, I-I just wasn't interested in it at all.
+Therapist: Oh, okay.",none,none,True,True
+data/added_labels/advice_test_examples/none/5_5ed93ab3-74ac-463a-bf80-2e2f7026e1a9.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Yeah. Oh, I know. After talking to you, I got Donna to help me out, and that's just really helpful.
+Therapist: Mm-hmm.",none,none,True,True
+data/added_labels/advice_test_examples/ADW/63_43a898ab-57f6-4f8e-ae18-ba52a9fd5a32.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: No, I mean, no. I mean, like I said, I only do it in clubs, you know, with my friends, uh, two or three times a month at-at the most. Um, uh, I don't think it's really having other impacts. But I'm-I'm concerned about this one. I never expected to get gonorrhea.
+Therapist: Yeah, you know, I'm concerned bout it too and I'd actually recommend that you stop using Methamphetamine altogether. And, um, there-there are a lot of reasons for this but that's-that's would be my recommendation.",ADW,ADW,True,True
+data/added_labels/advice_test_examples/none/5_a8075350-9686-4779-bd92-573f9c0ba740.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Yeah, yeah, they [unintelligible 00:36:38]
+Therapist: -for quite some time, and they're really important to you.",none,none,True,True
+data/added_labels/advice_test_examples/ADW/78_916a02e7-aed5-44ad-9ac9-ca24ba982684.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Mm-hmm.
+Therapist: The other thing I was going to tell you is that, unfortunately, uh, even though you are smoking outside and keeping the smoke away from her, the smoke on your clothes, because her lungs are so sensitive, can also affect her lungs and cause her to have a reaction. Now, something I'd like you to think about is that, if you use the chronic inhaler every day, she may not be sensitive to the smoke on your clothes, but she still maybe because her lungs are just very different than ours. Um, honestly, I'd love to see you quit smoking for you too because, you know, as you know, it's not real good for you.",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/60_2b0f5ccb-5934-4efd-ba8c-e24869c58b91.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: So just switching my addiction. [laughs]
+Therapist: If you will. And that's if you decide you want to try a replacement therapy and that's what we call it and it-it kind of sounds from what you've described with your fear about you know, what it would be like of the withdrawal and everything like that. W-why you don't have to do it that way, you don't have to go cold-cold turkey.",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/77_6ad35182-09a1-4f3d-98cd-ec5a2d65b3c6.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Well, I don't see how I could do it. I-I'm still in a walker, you know.
+Therapist: Yeah, yeah, I understand. So there are lots of places around that have it. Your local senior center would have it. And what I recommend is that you start by doing it in a chair. Just sitting in the chair.",ADW,ADW,True,True
+data/added_labels/advice_test_examples/none/121_7a7e46c4-9379-4191-8d5e-153fab42241b.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: And then there's-- I mean, okay, I confess that lunchtime, occasionally, it's uh, I'm hungry and McDonald's is very convenient
+Therapist: Yeah.",none,none,True,True
+data/added_labels/advice_test_examples/ADP/113_86e4b39b-6a9e-40b2-80ad-ecb0bf8b8e9f.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Exactly.
+Therapist: Okay. I appreciate. We've- we've probably used up the time that we have. I would love to see you next week if you'd be willing to schedule another appointment and talk with you more about this. Is that something that would be helpful?",ADP,ADP,True,True
+data/added_labels/advice_test_examples/ADP/113_cded6d76-062c-46b1-8b52-2e3073bdb827.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: We can talk about it some more.
+Therapist: [chuckles] Not necessarily the-the most exciting thing for you to do, but I appreciate you are willing to do that. Can I also ask you to do a little bit of homework between now and next week? I promise it's not too time-consuming. Um, we have a booklet that we like to give folks who are just thinking about changing, who aren't sure that this is something that they're ready to do, and one of the exercises is to write down your top three reasons for change, why you would even consider quitting smoking. And then to reflect on some of the good things as we talked about, as well as some of the less good things about quitting and about continuing to smoke. Is that something you'd be willing to do over the next few days?",ADP,ADP,True,True
+data/added_labels/advice_test_examples/ADW/49_18fd2edc-8c99-4642-842c-5dde66c1180d.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Um, I suppose I've just got to get tougher with myself.
+Therapist: Yeah. I think somewhat being tough with yourself, what-- yeah, people often say that, but, you know, it's not-- I think there are some things that you can do, and you've already-already identified a really good strategy.",ADW,none,False,True
+data/added_labels/advice_test_examples/none/26_7e057b05-c668-48a6-bede-be446c62ea9e.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: I just wanna contact my mom, that's it.
+Therapist: Mm-hmm. Yeah, you used to have contact with your mom, you know, almost every other night and now for just about a week, you haven't even gotten to talk to her. I can imagine that being pretty difficult. I remember you saying something about like your dad's birthday coming up?",none,none,True,True
+data/added_labels/advice_test_examples/ADW/78_60a5d838-6775-4412-97b9-0d1fa030e42c.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Yeah.
+Therapist: Uh, and it would certainly help her. Um, but what I'd like you to do is to, kind of, keep an eye on what happens when she uses the chronic inhaler. And if she's still flaring up when you're around her, if there are any, if there is smoke on your clothes because it-it can flare her up.",ADW,ADW,True,True
+data/added_labels/advice_test_examples/none/97_e6c1ce99-2ae1-445a-8583-c8bce123ba5f.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: You are joking, aren't you? I mean, look, I've made time in my day to come here.
+Therapist: Yeah.",none,none,True,True
+data/added_labels/advice_test_examples/ADW/60_8aee7c2a-cd38-4dc4-a369-98fc6fd52505.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Right.
+Therapist: So if you have a stash Nicorette gum if you decide to use it, I mean, you'd have to have other stashes, you know.",ADW,ADW,True,True
+data/added_labels/advice_test_examples/none/85_54e098f8-3c6b-44eb-9844-95276b4be1b4.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Uh. [clears throat] I'm not sure that the hospital is worse than the cotton ball, but I don't like it either.
+Therapist: So, you'd really like to stay out of that hospital?",none,none,True,True
+data/added_labels/advice_test_examples/ADW/33_b533c9ed-ec1a-4660-afe5-9ba5bdf60b65.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Yeah, I've thought about it. I'm just-- It's not my cup-- I-I-I hear it from everybody, and, uh, I've tried- I've tried before, didn't work. I get it all the time.
+Therapist: Okay. And it's like here I am one more person, the next- the next doctor who's saying, ""You need to quit smoking, David.""",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/49_f1c65444-2a14-40c6-857e-99112a32eff8.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Mm.
+Therapist: So let's talk about how we can organize a-a meeting with them.",ADW,ADW,True,True
+data/added_labels/advice_test_examples/none/121_3f4c9cea-b87b-4c9c-858f-11288878d055.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: -you know, why you are-- Look around you.
+Therapist: Mm, mm.",none,none,True,True
+data/added_labels/advice_test_examples/ADW/63_35bec28d-f625-47e3-a198-36e09c696cb9.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Yes.
+Therapist: Well, great. I recommend that you not use Methamphetamine at all but what you do is up to you.",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/78_250da28c-4ccf-44e4-a33b-4294212443b9.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: She's that sensitive. If I realized that—
+Therapist: It-it-it-- Yeah. It may not- it may not when she uses the chronic inhaler, uh, but you'll need to keep an eye on that. Obviously, it would be- what would be best if it didn't get on your clothes, or you quit smoking.",ADW,ADW,True,True
+data/added_labels/advice_test_examples/none/133_39bf56b5-34f0-4f4d-928d-c571874f219a.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Yeah, I know.
+Therapist: So, um-- And-and maybe it's about small steps and first steps.",none,ADW,False,True
+data/added_labels/advice_test_examples/none/97_a02c6fda-f000-41ee-b6a5-18bfa7ef4671.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: I'll maybe have a look at my schedule, see whether anything-
+Therapist: Yeah.",none,none,True,True
+data/added_labels/advice_test_examples/ADP/85_3b0111df-e368-4f1c-a6fc-1df6f9fc0ce3.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: I suppose.
+Therapist: Okay, thanks. Um, we could if you're-- 'Cause, as you can tell, this is really more of an art than a science, um, try some other medications and see how you do on them, and perhaps, you won't have these side effects. And, um, it-it really is just a matter of kind of experimenting around to get, uh, to see if we can get to a point that at least you're not having these really bad things happen of getting into the hospital and getting arrested and stuff versus feeling more like that-that spirited Scott that, you know, watches Spice channel, you know, I mean-- Because I can tell the spirit of Scott is, uh, a hoot.",ADP,ADP,True,True
+data/added_labels/advice_test_examples/ADP/101_6bb64179-3a1b-4462-9b63-fb954741b6a2.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Oh, well. Well, then I guess that could be a problem.
+Therapist: My perspective as a doctor, it would be good if you could think about cutting back a little bit or doing something different about your drinking. What-what do you think about that?",ADP,ADP,True,True
+data/added_labels/advice_test_examples/none/88_a0c4a274-113b-4d25-864c-2fefd7e9f174.csv,"The following is a snippet from an MI conversation.  Return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Therapist: Steve, before we're done with our visit today, I was wondering if you'd be willing to take a few minutes to talk about your drinking.
+Answer: ADP
+
+Example #2
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this utterance and output one word which is the correct answer.","Client: Let's start tomorrow.
+Therapist: Tomorrow. Okay, great. So who would be able to help you get to bed on time and make sure you're up on time by 6:15?",none,none,True,True
