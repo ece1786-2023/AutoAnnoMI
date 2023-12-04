@@ -1,0 +1,21 @@
+The following is a snippet from a motivational interviewing conversation. The snippet can have multiple therapist and client utterances. 
+Return "ADP", "ADW" or "none" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Examples:
+
+Example #1
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated."
+Therapist: "Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?"
+Client: "Sure, I'd appreciate that."
+Therapist: "One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?"
+Answer: ADP
+
+Example #2
+Therapist: What's going on with that?
+Client: Well, I just can't seem to get back in the gym. I don't wanna-- I-I used to work out quite a bit, and in the last, I dunno, couple of years I've just-- I stopped going. I got busy, and now I'm out of the habit, and I-I really, I dunno, I feel like I need to get back.
+Therapist: Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.
+Answer: ADW
+
+Now, look at this snippet and output one word, which is the correct label for the LAST therapist utterance.

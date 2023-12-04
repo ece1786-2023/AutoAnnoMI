@@ -1,0 +1,4 @@
+The following is a snippet from an MI conversation.  Return "ADP", "ADW" or "none" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
