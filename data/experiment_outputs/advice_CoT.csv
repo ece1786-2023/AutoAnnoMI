@@ -1,0 +1,623 @@
+csv_file,system_prompt,user_prompt,true_label,predicted_label,success,done
+data/added_labels/advice_test_examples/none/12_b928cbdc-c115-4ca6-8b20-a0524b833cdd.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Therapist: Sarah, I'm so glad you came in for your well-woman exam today. I think we addressed a lot of your concerns. However, I would like to ask you more about your smoking. Would that be okay?
+",none,none,True,True
+data/added_labels/advice_test_examples/none/26_7e057b05-c668-48a6-bede-be446c62ea9e.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: I don't know. Some of-- One of the officers, it's like he has it out for me or something. I don't- I don't know what it is. Something about me not making my bed, something about my attitude. I don't know, I just want my call, man.
+Therapist: Okay. yeah, it was weird when I, uh, got that report because for the most part since you've been here, uh, you'd been like, uh, model-model resident, uh, always making their bed, uh, been pretty, uh, respectful of the staff, of all the other residents. So, uh, is it something to do with you getting out in three weeks? It must be pretty hard.
+Client: I just wanna contact my mom, that's it.
+Therapist: Mm-hmm. Yeah, you used to have contact with your mom, you know, almost every other night and now for just about a week, you haven't even gotten to talk to her. I can imagine that being pretty difficult. I remember you saying something about like your dad's birthday coming up?
+",none,none,True,True
+data/added_labels/advice_test_examples/ADW/121_c10ffd97-75ae-408c-8abc-365a51fd0a15.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: And so maybe that would, uh—
+Therapist: Yeah, sounds like a good idea.
+Client: Maybe it's an idea. I mean—
+Therapist: I think anything you do, it has to be something you've decided. You know, just start where you want to start. You've mentioned some really good ideas about possibly getting a little bit more exercise into your life, doing something like squash or something of that nature. You've mentioned some really good ideas about reducing the amount of sugar you-you-you're-you're intaking during the day, and coffee is a good place to start. Having an apple for breakfast, I think you mentioned that, a bit of fruit.",ADW,none,False,True
+data/added_labels/advice_test_examples/ADW/49_18fd2edc-8c99-4642-842c-5dde66c1180d.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Um, I haven't managed it to-to this point, so [chuckles] I don't know.
+Therapist: Mm.
+Client: Um, I suppose I've just got to get tougher with myself.
+Therapist: Yeah. I think somewhat being tough with yourself, what-- yeah, people often say that, but, you know, it's not-- I think there are some things that you can do, and you've already-already identified a really good strategy.
+",ADW,none,False,True
+data/added_labels/advice_test_examples/none/91_b8e0527b-3fdb-400c-8943-ea0614d8ca9e.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Well, I'm- I guess I'm still a fighter, and I-I-I- it's starting to- I'm starting to realize it and I do feel pretty good that I came to see you. I-I- it was a step and a couple of people who care about me actually, uh, gave me a pat on the back that I came to see you. So-
+Therapist: Mm-hmm.
+Client: -this was a big step. So I guess, yes. Um, it wouldn't have been as high maybe last week.
+Therapist: Okay. So you said 30 to 40%. What would it take to build that confidence to about 45%?
+",none,none,True,True
+data/added_labels/advice_test_examples/ADP/113_86e4b39b-6a9e-40b2-80ad-ecb0bf8b8e9f.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: I don't have any plans to quit. It's just something I'm thinking about.
+Therapist: So, it's-it's not so much that you don't wanna quit in a way, it's almost, ""How could I do it that would work for me?""
+Client: Exactly.
+Therapist: Okay. I appreciate. We've- we've probably used up the time that we have. I would love to see you next week if you'd be willing to schedule another appointment and talk with you more about this. Is that something that would be helpful?
+",ADP,none,False,True
+data/added_labels/advice_test_examples/ADW/60_2b0f5ccb-5934-4efd-ba8c-e24869c58b91.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Right, right. Just like [inaudible 00:04:06] Or your chocolate and all that.
+Therapist: Yeah.
+Client: So just switching my addiction. [laughs]
+Therapist: If you will. And that's if you decide you want to try a replacement therapy and that's what we call it and it-it kind of sounds from what you've described with your fear about you know, what it would be like of the withdrawal and everything like that. W-why you don't have to do it that way, you don't have to go cold-cold turkey.
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/91_82793c41-f0a5-457a-9a0b-f94b79a3af0b.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Yeah, yeah. I think so because, um, when I get the urge, I could maybe fight it and, um, maybe wait till the next urge-
+Therapist: Mm-hmm.
+Client: -and maybe mark that down that, uh, I didn't go right away when something went wrong. Um, yes, I-I can try that.
+Therapist: Okay. And I can give you a little card that can help you keep track of it. And if you can bring that back to the next appointment, it could be something we could discuss. Okay. Anything else?
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/33_b533c9ed-ec1a-4660-afe5-9ba5bdf60b65.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: -all of the above.
+Therapist: Any thoughts on considering quitting smoking at this time?
+Client: Yeah, I've thought about it. I'm just-- It's not my cup-- I-I-I hear it from everybody, and, uh, I've tried- I've tried before, didn't work. I get it all the time.
+Therapist: Okay. And it's like here I am one more person, the next- the next doctor who's saying, ""You need to quit smoking, David.""
+",ADW,none,False,True
+data/added_labels/advice_test_examples/none/48_94474b78-648c-4ecc-93b1-3879644abfa8.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Which was the reason why I didn't want quite to address 'cause I know better. I-
+Therapist: You probably think that I'm going to get on your case about that or something.
+Client: Yes, I know, I know, I know.
+Therapist: Yeah.
+",none,none,True,True
+data/added_labels/advice_test_examples/ADW/33_09cd7881-07a4-4eaf-8992-53192989b9ea.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Therapist: Okay, David. So, why don't you take a rinse, and how are you feeling?
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/107_2299ccdc-11e7-40e3-b9c6-0b33d5154399.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Do you wanna see it?
+Therapist: Yeah. Let me see. You know those look to me like they-they-- did you go to the-- It doesn't look like you went and got any stitches, but that looks to me like you could have used them. What do you think?
+Client: I think have you ever been to an ER when you cut yourself, you'd know why I don't go.
+Therapist: Okay, but part of the problem is those look deep and like you're going to have significant scars. So my suggestion is in the future, if you do it, is that you put some sort of bandaid on it to keep it closed. But let's talk about how, um, how this happened. First of all, tell me, you were telling me on that phone that you wanted to die. But, um, did you-- Was this a suicide attempt or do you think it was just-just a cutting? Were thinking of killing yourself or wanting to kill yourself or wanting to die when you did it?
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/63_43a898ab-57f6-4f8e-ae18-ba52a9fd5a32.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Yeah.
+Therapist: Anything else happening with Methamphetamine in your life? Is it affecting you in any way?
+Client: No, I mean, no. I mean, like I said, I only do it in clubs, you know, with my friends, uh, two or three times a month at-at the most. Um, uh, I don't think it's really having other impacts. But I'm-I'm concerned about this one. I never expected to get gonorrhea.
+Therapist: Yeah, you know, I'm concerned bout it too and I'd actually recommend that you stop using Methamphetamine altogether. And, um, there-there are a lot of reasons for this but that's-that's would be my recommendation.
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/60_8aee7c2a-cd38-4dc4-a369-98fc6fd52505.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Right, right.
+Therapist: And yet, on some level, you know, that it's gonna be a lot of hard work for you because of, you know, you've already known how anxious you get about a stash-
+Client: Right.
+Therapist: So if you have a stash Nicorette gum if you decide to use it, I mean, you'd have to have other stashes, you know.
+",ADW,none,False,True
+data/added_labels/advice_test_examples/ADW/77_6ad35182-09a1-4f3d-98cd-ec5a2d65b3c6.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Like I said, my friend talks about it and-and it's very pretty. I've seen pictures, you know.
+Therapist: Yeah, yeah, yeah. Well, it's not that easy to get started. You do certainly have to have some motivation to want to do it. Um, and when you first start, oftentimes you do feel a little wobbly or a little insecure.
+Client: Well, I don't see how I could do it. I-I'm still in a walker, you know.
+Therapist: Yeah, yeah, I understand. So there are lots of places around that have it. Your local senior center would have it. And what I recommend is that you start by doing it in a chair. Just sitting in the chair.
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/78_60a5d838-6775-4412-97b9-0d1fa030e42c.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Mm-hmm.
+Therapist: The other thing I was going to tell you is that, unfortunately, uh, even though you are smoking outside and keeping the smoke away from her, the smoke on your clothes, because her lungs are so sensitive, can also affect her lungs and cause her to have a reaction. Now, something I'd like you to think about is that, if you use the chronic inhaler every day, she may not be sensitive to the smoke on your clothes, but she still maybe because her lungs are just very different than ours. Um, honestly, I'd love to see you quit smoking for you too because, you know, as you know, it's not real good for you.
+Client: Yeah.
+Therapist: Uh, and it would certainly help her. Um, but what I'd like you to do is to, kind of, keep an eye on what happens when she uses the chronic inhaler. And if she's still flaring up when you're around her, if there are any, if there is smoke on your clothes because it-it can flare her up.
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADW/63_35bec28d-f625-47e3-a198-36e09c696cb9.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Yes.
+Therapist: And there's some things that you might be able to do that would make it easier to not use methamphetamine including talking to your sister and getting some support.
+Client: Yes.
+Therapist: Well, great. I recommend that you not use Methamphetamine at all but what you do is up to you.
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/none/84_2e5ad609-df4b-4c42-be2b-dd873004a95f.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Donna is easy to talk to unlike other girls that I don't really get along with. Uh, she's like and a good friend too so-
+Therapist: Oh okay. So someone who's both a friend and a girlfriend?
+Client: Yeah. I can hang out with her and stuff and she gets all my mates and stuff. So it's all good.
+Therapist: Hmm, yeah. It's really special when you find someone who can be both a friend and girlfriend, eh.
+",none,none,True,True
+data/added_labels/advice_test_examples/ADP/101_6bb64179-3a1b-4462-9b63-fb954741b6a2.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: I didn't realize that drinking had anything to do with blood pressure.
+Therapist: Mm-hmm. Yeah, it can sometimes.
+Client: Oh, well. Well, then I guess that could be a problem.
+Therapist: My perspective as a doctor, it would be good if you could think about cutting back a little bit or doing something different about your drinking. What-what do you think about that?
+",ADP,ADW,False,True
+data/added_labels/advice_test_examples/ADW/121_6f990869-69ae-44b3-8726-ecb7f67b89c8.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Something of a rollover effect.
+Therapist: -rollover, the domino effect starts to happen, and they start looking at other aspects.
+Client: Domino effect, yeah.
+Therapist: So rather than thinking, ""oh, my God, I have to change all these things. I've gotta stop smoking, I've gotta exercise more, I've gotta, you know, start eating more fruit and vegetables,"" you might start with these small changes, and then-
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADP/121_b607e221-1920-48d4-9426-f6f3dffa202f.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Um, I can't argue with a medical professional, Mark, because I know nothing, you know.
+Therapist: The test, is the test, and experience, yeah.
+Client: So, I mean, what-what-what-what suggestions would you have? I mean, what-what sort of-
+Therapist: I don't know. I think it's up to you where we start, and that's the question I've got in my mind. You've mentioned a couple of things that you've already made some effort, or been conscious of. You've mentioned the diet, you've mentioned your smoking, those are two quite important aspects that we often talk about here in how people work.
+",ADP,ADP,True,True
+data/added_labels/advice_test_examples/none/5_5ed93ab3-74ac-463a-bf80-2e2f7026e1a9.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Yeah.
+Therapist: Yeah. Where have you got to with the forms? I mean, we talked about that quite a lot last time.
+Client: Yeah. Oh, I know. After talking to you, I got Donna to help me out, and that's just really helpful.
+Therapist: Mm-hmm.
+",none,none,True,True
+data/added_labels/advice_test_examples/ADW/49_1f336114-becd-4c64-b9d1-1885c5980830.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: -a way to pay them off and-
+Therapist: Truly.
+Client: -I don't know how I'm gonna do that.
+Therapist: Yeah. Okay, so sounds like so-some budget to buy stuff will be helpful.
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/none/97_e6c1ce99-2ae1-445a-8583-c8bce123ba5f.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: What?
+Therapist: I wondered if we could spend just a couple of minutes talking about your weight.
+Client: You are joking, aren't you? I mean, look, I've made time in my day to come here.
+Therapist: Yeah.
+",none,none,True,True
+data/added_labels/advice_test_examples/ADW/78_250da28c-4ccf-44e4-a33b-4294212443b9.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Oh, even when it's just on my clothes?
+Therapist: Yeah. Yeah.
+Client: She's that sensitive. If I realized that—
+Therapist: It-it-it-- Yeah. It may not- it may not when she uses the chronic inhaler, uh, but you'll need to keep an eye on that. Obviously, it would be- what would be best if it didn't get on your clothes, or you quit smoking.
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADP/85_3b0111df-e368-4f1c-a6fc-1df6f9fc0ce3.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Yeah.
+Therapist: Yet, at the same time, I know running around and getting in trouble for being naked or having to go to the hospital, not such a good thing either. Um, I'm wondering if, um- if I could run some ideas by you that some other patients of mine have tried?
+Client: I suppose.
+Therapist: Okay, thanks. Um, we could if you're-- 'Cause, as you can tell, this is really more of an art than a science, um, try some other medications and see how you do on them, and perhaps, you won't have these side effects. And, um, it-it really is just a matter of kind of experimenting around to get, uh, to see if we can get to a point that at least you're not having these really bad things happen of getting into the hospital and getting arrested and stuff versus feeling more like that-that spirited Scott that, you know, watches Spice channel, you know, I mean-- Because I can tell the spirit of Scott is, uh, a hoot.
+",ADP,ADP,True,True
+data/added_labels/advice_test_examples/ADP/91_8d3893a8-87bd-4011-b364-a2933f657c4e.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: I-I think so because I feel a little better that I just came to see you today.
+Therapist: Okay.
+Client: Discussing things helps me. I always feel better when I get things out.
+Therapist: Okay. So Jean, I really want to congratulate you on taking this very important first step towards addressing this problem that you've had for such a long time, but as the first small step, I wonder whether you'd be open to actually just monitoring your smoking for the next week. And the reason why I say that- because as you were mentioning to me, smoking is so automatic for you that sometimes writing it down helps make every cigarette a conscious act. And I noticed that you were saying to me, you feel a loss of control over these cigarettes. And sometimes just being mindful and writing something down will help you get some control over what you're doing. And that's often the first small step. What are your thoughts about that?
+",ADP,ADP,True,True
+data/added_labels/advice_test_examples/none/133_39bf56b5-34f0-4f4d-928d-c571874f219a.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: No.
+Therapist: You know that.
+Client: Yeah, I know.
+Therapist: So, um-- And-and maybe it's about small steps and first steps.
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/none/85_54e098f8-3c6b-44eb-9844-95276b4be1b4.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Don't like that hospital.
+Therapist: No.
+Client: Uh. [clears throat] I'm not sure that the hospital is worse than the cotton ball, but I don't like it either.
+Therapist: So, you'd really like to stay out of that hospital?
+",none,none,True,True
+data/added_labels/advice_test_examples/none/121_3f4c9cea-b87b-4c9c-858f-11288878d055.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Well, I-I thought he must be joking. To be honest. I thought-
+Therapist: Mm.
+Client: -you know, why you are-- Look around you.
+Therapist: Mm, mm.
+",none,none,True,True
+data/added_labels/advice_test_examples/ADP/11_0ade393a-9b0c-45b9-87e0-b52574638fc4.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: I just wanna get whatever I need to get done, done.
+Therapist: Okay. You're more focused on what you need to do to get this behind you?
+Client: Yeah
+Therapist: .Okay, mm-hmm. Well, I'm wondering then if it's okay with you and-and I have a form that we can use if you'd like, um, just to put out some different ideas on an agenda that we could share as we're working together so that I-I can support you to be successful in getting this behind you. Would-would this feel like a natural time to-to move towards figuring out where we might go together?
+",ADP,ADP,True,True
+data/added_labels/advice_test_examples/none/121_7a7e46c4-9379-4191-8d5e-153fab42241b.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: You know, because it-- you know this-- the pizza shop's just on the road.
+Therapist: Yeah.
+Client: And then there's-- I mean, okay, I confess that lunchtime, occasionally, it's uh, I'm hungry and McDonald's is very convenient
+Therapist: Yeah.
+",none,none,True,True
+data/added_labels/advice_test_examples/none/5_a8075350-9686-4779-bd92-573f9c0ba740.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Yeah.
+Therapist: -like these guys have been around for you-
+Client: Yeah, yeah, they [unintelligible 00:36:38]
+Therapist: -for quite some time, and they're really important to you.
+",none,none,True,True
+data/added_labels/advice_test_examples/none/97_a02c6fda-f000-41ee-b6a5-18bfa7ef4671.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: That'd be good.
+Therapist: - and then there'll be absolutely no waiting. And, the purpose of that- of that visit will be to have a look at how you really feel about how you could move forward, and somehow fit in a more healthier lifestyle into the busy work life that you've got.
+Client: I'll maybe have a look at my schedule, see whether anything-
+Therapist: Yeah.
+",none,none,True,True
+data/added_labels/advice_test_examples/ADP/113_cded6d76-062c-46b1-8b52-2e3073bdb827.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Oh, sure. Sure, I'll come in. Yeah.
+Therapist: Okay. So I hear-- [crosstalk]
+Client: We can talk about it some more.
+Therapist: [chuckles] Not necessarily the-the most exciting thing for you to do, but I appreciate you are willing to do that. Can I also ask you to do a little bit of homework between now and next week? I promise it's not too time-consuming. Um, we have a booklet that we like to give folks who are just thinking about changing, who aren't sure that this is something that they're ready to do, and one of the exercises is to write down your top three reasons for change, why you would even consider quitting smoking. And then to reflect on some of the good things as we talked about, as well as some of the less good things about quitting and about continuing to smoke. Is that something you'd be willing to do over the next few days?
+",ADP,ADW,False,True
+data/added_labels/advice_test_examples/ADW/49_946da1b2-2820-4781-9cd0-98aa748b22cf.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: [chuckles]
+Therapist: So-so, what would be really helpful maybe because I might miss it, you know, so, like, could you tell me? It would be really helpful if—
+Client: When I'm feeling uncomfortable?
+Therapist: Yeah, yeah. If you could just say, ""Ken, hi, I am starting to, you know, tune it out here, starting to get uncomfortable,"" that would be really helpful.
+",ADW,none,False,True
+data/added_labels/advice_test_examples/none/88_a0c4a274-113b-4d25-864c-2fefd7e9f174.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Uh, either tomorrow or the next day.
+Therapist: Okay, so if I would write down here, um, what do you think- what would you want me to write? Tomorrow or the next day?
+Client: Let's start tomorrow.
+Therapist: Tomorrow. Okay, great. So who would be able to help you get to bed on time and make sure you're up on time by 6:15?
+",none,none,True,True
+data/added_labels/advice_test_examples/ADW/49_f1c65444-2a14-40c6-857e-99112a32eff8.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Mm-hmm.
+Therapist: Yeah, and of the things that-that we often put people in touch with here is some budget advice service, it's a great service here, um, and something that you can get to.
+Client: Mm.
+Therapist: So let's talk about how we can organize a-a meeting with them.
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/none/85_a75ba261-83b8-40ab-83b6-2b1a126e67bc.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Yeah.
+Therapist: With the libido out the door.
+Client: Yeah. And, uh- and so, she-- Actually, she-- When I first went on the medicine, she thought I was maybe messing around with somebody else, 'cause, I-I just wasn't interested in it at all.
+Therapist: Oh, okay.
+",none,none,True,True
+data/added_labels/advice_test_examples/ADW/16_0e3e09e2-36d5-4c04-a535-4b7c9cf9caa6.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Therapist: So, Rick, just in regards to your flatmate situation at the moment with Tristan. Uh, you know, we talked about how walking through this program and with the support of your parents and having some positive influence to help you through this. I just want to rethink a bit if you stay living with Tristan. What are the sort of pros and cons of that? What are the good things about living there, what are the not-so-good things about living there?
+Client: Oh, it's a nice place. It's close to work. It's good living with a mate.
+Therapist: Yeah. So, in terms of being supportive and a sort of support you're gonna need to make these changes.
+",ADW,none,False,True
+data/added_labels/advice_test_examples/ADP/97_cf40c535-07eb-4291-88f4-f22360203dd0.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: You know? Um, because I'm juggling all these balls, and I don't want to drop any.
+Therapist: I get it. I get it. And so, if you could fit it in, you would like things to be different, but that's not so easy.
+Client: No.
+Therapist: Okay. Can I suggest that you come back and see me in a couple of weeks time just to chat about this?
+",ADP,ADP,True,True
+data/added_labels/advice_test_examples/ADP/20_3d74913e-86a5-4a2d-bc2b-d1ecb69a4b5c.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Yeah.
+Therapist: Where do you think we should go from here?
+Client: I don't know. I-I'd like some help. I just don't know what kind of help I need.
+Therapist: Sure. Well, if you'd be interested, that's something I can definitely talk to you about. There are a lot of new options that can actually help people be way more successful in their attempt at quitting. There's different medications you can try.
+",ADP,ADP,True,True
+data/added_labels/advice_test_examples/ADP/85_00e51b59-1792-4aaa-9dca-093b06978fde.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Well, I got a question for you. You're a doctor, why don't you guys come up with some- something else besides either being in the hospital or taking this stuff every day, can you come up with something? I mean, you guys, we put a man on the moon 50 years ago, I mean, and you still got to give me this stuff that makes me feel like a-a zombie with-- That hasn't had a drink or water in four days, it-it just doesn't seem right. Either you guys ought to come up with something better. That's what I think.
+Therapist: I agree with you, I really do. So-- And I- and I think that a lot of times, um, the medications, they do have a lot of side effects, and I completely understand why people don't wanna take them-
+Client: Yeah.
+Therapist: Yet, at the same time, I know running around and getting in trouble for being naked or having to go to the hospital, not such a good thing either. Um, I'm wondering if, um- if I could run some ideas by you that some other patients of mine have tried?
+",ADP,ADP,True,True
+data/added_labels/advice_test_examples/ADW/78_916a02e7-aed5-44ad-9ac9-ca24ba982684.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Oh, okay.
+Therapist: And so this chronic inhaler can really prevent that from happening. Okay? Which is why it's so important to use it.
+Client: Mm-hmm.
+Therapist: The other thing I was going to tell you is that, unfortunately, uh, even though you are smoking outside and keeping the smoke away from her, the smoke on your clothes, because her lungs are so sensitive, can also affect her lungs and cause her to have a reaction. Now, something I'd like you to think about is that, if you use the chronic inhaler every day, she may not be sensitive to the smoke on your clothes, but she still maybe because her lungs are just very different than ours. Um, honestly, I'd love to see you quit smoking for you too because, you know, as you know, it's not real good for you.
+",ADW,ADW,True,True
+data/added_labels/advice_test_examples/ADP/133_dcc7736d-022c-4d43-ac15-d2c7526c6c69.csv,"The following is a snippet from an MI conversation. Show your thinking process step by step and then return ""ADP"", ""ADW"" or ""none"" based on whether the therapist's utterance  has advice WITH permission, advice WITHOUT permission, or no advice.
+
+Context: utterances with advice will usually contain language that indicates that advice is being given: should, why don't you, consider, try, suggest, advise, you could. Advice WITH permission can be in the form of a request from the client, or in the therapist asking the client's permission to offer it. Watch for Indirect forms of permission asking such as giving the client the option to disregard the advice.
+
+Example:
+Client: I've heard about those benefits. I guess I'm just worried about finding the time and staying motivated.""
+Therapist: ""Those are valid concerns. Would you like some suggestions on how you might overcome these challenges?""
+Client: ""Sure, I'd appreciate that.""
+Therapist: ""One approach could be starting with small, manageable goals, like a short walk each day or a few minutes of stretching. It's also helpful to find activities you enjoy. And remember, it's okay to start slow and build up gradually. What do you think about trying something like this?""
+Answer: the therapist uses ADP by first asking permission before giving advice, discussing the benefits of the suggested change, and then seeking the client's thoughts on the advice given. ADP","Client: Yeah, I know.
+Therapist: So, um-- And-and maybe it's about small steps and first steps.
+Client: Yeah. I mean, yeah, it is obviously, it is first steps, but I mean, what's that? What's the first step into the pro-social life?
+Therapist: Well, you trying to get a job, maybe and get into some routine.
+",ADP,ADW,False,True
